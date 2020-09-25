@@ -18,3 +18,7 @@ see http://zerospeech.com/2020/ .
     * make models/
 * zerospeech
     * evaluation
+
+## Directories
+
+submission: http://zerospeech.com/2020/instructions.html#registration
