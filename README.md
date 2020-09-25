@@ -11,3 +11,10 @@ for the purpose of practice.
 
 For more general background information,
 see http://zerospeech.com/2020/ .
+
+## Containers
+
+* jupyter
+    * make models/
+* zerospeech
+    * evaluation

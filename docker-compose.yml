@@ -1,0 +1,16 @@
+version: "2"
+services:
+  jupyter:
+    build: ./docker/jupyter
+    volumes:
+      - $PWD:/tmp/working
+    working_dir: /tmp/working
+    ports:
+      - 8000:8000
+    command: jupyter notebook --ip=0.0.0.0 --allow-root --no-browser
+  zerospeech-app:
+    build: ./docker/zerospeech
+    volumes:
+      - $PWD:/tmp/working
+    working_dir: /tmp/working
+    stdin_open: true
